@@ -1,0 +1,86 @@
+body {
+	background-image: linear-gradient(to bottom, rgba(184, 50, 13, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%), url(../imagens/secao-sociologia.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	position: relative;
+	padding-left: 20px;
+}
+
+.container h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: white;
+}
+
+.container p {
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-size: 23px;
+	margin-left: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 400px;
+}
+
+.vertical-menu {
+  	width: 600px; 
+	left: 50%;
+	top: 50%;
+	margin-left: -300px; 
+	margin-top: 80px; 
+	position: absolute;
+	border: 3px groove rgba(135, 113, 31, 0.6);
+}
+
+.vertical-menu a {
+  	background-color: rgba(212, 215, 160, 0.95);
+  	color: black; 
+  	display: block; 
+  	padding: 10px; 
+  	text-decoration: none;
+	font-size: 20px;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	text-align: center;
+	font-size: 22px;
+}
+
+.vertical-menu a:hover {
+  	background-color: #ccc; 
+}
+
+.vertical-menu a.active {
+	background-color: rgba(83, 127, 111, 0.8);
+  	color: white;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-size: 35px;
+	padding: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.container-voltar {
+	position: absolute;
+	bottom: 50px;
+	left: 40px;
+}
+
+.container-voltar a {
+	background-color: rgba(95, 71, 65, 1);
+	color: white;
+	padding: 15px 20px 15px 20px; 
+  	text-decoration: none;
+	border: 3px solid rgba(95, 71, 65, 1);
+	border-radius: 18px;
+	font-size: 16px;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}

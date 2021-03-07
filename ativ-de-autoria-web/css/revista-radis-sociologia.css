@@ -1,0 +1,94 @@
+body {
+	background-color: rgba(220, 223, 166, 1);	
+}
+
+h3 { 
+	font-size: 20px;
+}
+
+.container-cabecalho {
+	background-image: linear-gradient(to bottom, rgba(184, 50, 13, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%), url(../imagens/secao-sociologia.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 30px 20px 8px 20px;
+}
+
+.container-cabecalho h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+
+.container-cabecalho p {
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+	border-bottom: 1px solid #444;
+	padding-bottom: 13px;
+}
+
+.introducao {
+	padding: 10px 20px 0px 20px;
+}
+
+.introducao h1 {
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-size: 60px;
+}
+
+.introducao p {
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.introducao div {
+	border: 1px solid #444;
+	display: table;
+	padding: 1px 20px 4px 20px;
+}
+
+.lista-secoes h2{
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+.container-noticias p {
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif; 
+	font-size: 18px;
+	text-indent: 1cm;
+	text-align: justify;
+}
+
+.sobre-radis, .noticia-1, .noticia-2, .noticia-3, .referencias {
+	padding: 0px 15px 0px 15px;
+	margin: 35px 0px 20px 0px;
+}
+
+.referencias {
+	word-wrap: break-word;
+}
+
+.container-voltar {
+	margin: 90px 0px 70px 25px;
+}
+
+.container-voltar a {
+	background-color: rgba(95, 71, 65, 1);
+	color: white;
+	padding: 15px 20px 15px 20px; 
+  	text-decoration: none;
+	border: 3px solid rgba(95, 71, 65, 1);
+	border-radius: 18px;
+	font-size: 16px;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
